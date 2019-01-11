@@ -2,12 +2,13 @@
 
 const {
   AreaAudience,
-  Channel,
   PartyAudience,
   PrivateAudience,
   RoomAudience,
   WorldAudience,
 } = require('ranvier');
+
+const { Channel } = require('ranvier').Channel;
 
 module.exports = [
   new Channel({
